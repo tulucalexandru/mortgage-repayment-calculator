@@ -1,0 +1,8 @@
+@use "./assets/styles/typography" as *;
+@use "./assets/styles/colors" as *;
+@use "sass:color";
+
+.title {
+  @include text-preset-1;
+}
+
